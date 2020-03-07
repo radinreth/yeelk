@@ -15,11 +15,13 @@ gem "bootsnap", ">= 1.4.2", require: false
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
-  gem 'rspec-rails', '~> 3.9'
+  gem "rspec-rails", "~> 3.9"
+  gem "factory_bot", "~> 5.1.1"
+  gem "factory_trace", "~> 0.4.1"
 end
 
 group :test do
-  gem 'capybara', '~> 3.31.0'
+  gem "capybara", "~> 3.31.0"
 end
 
 group :development do
