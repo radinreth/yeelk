@@ -16,7 +16,7 @@ gem "timecop", "~> 0.9.1"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
-  gem "rspec-rails", "~> 3.9"
+  gem "rspec-rails", "~> 4.0.0.beta3"
   gem "factory_bot", "~> 5.1.1"
   gem "factory_trace", "~> 0.4.1"
 end
@@ -31,6 +31,7 @@ group :development do
   gem "listen", ">= 3.0.5", "< 3.2"
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
+  gem "annotate", "~> 3.1.0"
 end
 
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
