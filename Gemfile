@@ -12,6 +12,7 @@ gem "webpacker", "~> 4.0"
 gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.7"
 gem "bootsnap", ">= 1.4.2", require: false
+gem "timecop", "~> 0.9.1"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
@@ -22,7 +23,7 @@ end
 
 group :test do
   gem "capybara", "~> 3.31.0"
-  gem 'shoulda-matchers', "~> 4.3.0"
+  gem "shoulda-matchers", "~> 4.3.0"
 end
 
 group :development do
